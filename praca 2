@@ -1,0 +1,24 @@
+class HelloWorld {
+    public static void main(String[] args) {
+       String miesiac = "luty";
+   switch(miesiac)
+
+    {
+        case "styczen":
+            System.out.println("Temperatura 0stopni");
+            break;
+        case "luty":
+            System.out.println("Temperatura 5stopni");
+            break;
+        case "marzec":
+            System.out.println("Temperatura 8stopni");
+            break;
+        case "sierpien":
+            System.out.println("Temperatura 20 stopni");
+            break;
+        default:
+            System.out.println("Temperatura 12stopni");
+            break;
+    }
+    }
+}
