@@ -1,0 +1,28 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int pierwsza = 5, druga = 66, trzecia = 3;
+        if (pierwsza > druga) {
+            if (druga > trzecia) {
+                System.out.println("Liczba " + pierwsza + " jest najwieksza");
+                System.out.println("Liczba " + druga + " jest srodkowa ");
+                System.out.println("Liczba " + trzecia + " jest najmniejsza");
+            } else if (pierwsza > trzecia) {
+                System.out.println("Liczba " + pierwsza + " jest najwieksza");
+                System.out.println("Liczba " + druga + " jest najmniejsza");
+                System.out.println("Liczba " + trzecia + " jest srodkowa");
+            } else {
+                System.out.println("Liczba " + pierwsza + " jest srodkowa");
+                System.out.println("Liczba " + druga + " jest najmniejsza");
+                System.out.println("Liczba " + trzecia + " jest najwieksza");
+            }
+        } else if (pierwsza < trzecia) {
+            System.out.println("Liczba " + pierwsza + " jest najmniejsza");
+            System.out.println("Liczba " + druga + " jest srodkowa ");
+            System.out.println("Liczba " + trzecia + " jest najwieksza");
+        } else if (druga > trzecia) {
+            System.out.println("Liczba " + pierwsza + " jest srodkowa");
+            System.out.println("Liczba " + druga + " jest najwieksza ");
+            System.out.println("Liczba " + trzecia + " jest najmniejsza");
+        }
+    }
+}
